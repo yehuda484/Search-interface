@@ -1,0 +1,11 @@
+famili = ["yehuda", "ilanit", "aba", "ester", "rachel", "sara", "benayahu", "rivka", "hodaya"]
+
+name = input("search:")
+is_found = False
+for x in famili:
+    if x == name:
+        print(x)
+        is_found = True
+        break
+if is_found is False:
+    print("not found")
